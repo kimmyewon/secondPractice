@@ -1,0 +1,89 @@
+.header_area {
+    display: flex;
+    color: #000000;
+    width: 100%;
+    height: 53px;
+}
+
+.back_area {
+    display: absolute;
+    left: 0;
+    padding-left: 15px;
+    height: 53px;
+    width: 30px;
+    line-height: 53px;
+}
+
+.back_icon {
+    background-image: url(https://www.shouse.garden/images/common/sp_common_m.png);
+    background-position: -21px -37px;
+    background-size: 100px auto;
+    width: 20px;
+    height: 13px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.setting_area {
+    display: absolute;
+    height: 53px;
+    width: 30px;
+    line-height: 63px;
+    padding-right: 15px;
+}
+
+.setting_icon {
+    background-image: url(https://shop.shouse.garden/data/skin/responsive_ver1_default_gl/images/common/sp_common_m.png);
+    background-position: -77px -37px;
+    background-size: 100px auto;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.header_text_area {
+    display: absolute;
+    text-align: center;
+    width: 80vh;
+}
+
+.header_text {
+    display: inline-block;
+    z-index: -1;
+    padding: 0 100px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 18px;
+    font-weight: bold;
+}
+
+.list_wrapper {
+    display: flex;
+}
+.my_list {
+    width: 100vh;
+    height: 51px;
+    text-align: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.my_list_text {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 51px;
+}
+
+.request_list {
+    width: 100vh;
+    height: 49px;
+    text-align: center;
+    border-bottom: 3px solid #009a3e;
+}
+
+.request_list_text {
+    color: #009a3e;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 51px;
+}
